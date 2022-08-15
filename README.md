@@ -26,7 +26,7 @@
 
 I had never studied information about Git та GitHub before, so this course was completely new to me. Frankly speaking, it was not very easy for me,        and took some time to understand and start to apply in practice tasks.
   
-[Learn Git Branching](https://learngitbranching.js.org/?locale=uk)  was help me to see visualize branches, commits and how to work with it on a basic       level. All of commands was a new for me, such a `git status` or `git add` and others.
+[Learn Git Branching](https://learngitbranching.js.org/?locale=uk)  was help me to see visualize branches, commits and how to work with it on a basic       level. All of commands was a new for me, such a `git status` or `git add` and others. I was surprised how easily can see summarized view of the commit history for a repo with a command `git log --graph --oneline`.
 
 Completed 1-2 week of course of [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github/home/week/1): 
  
