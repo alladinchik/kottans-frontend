@@ -3,7 +3,7 @@
 ## General 
 - [x] [0. Git Basics](#0-git-basics)
 - [x] [1. Linux CLI and Networking](#1-linux-cli-and-networking)
-- [ ] 2. GitHub and Collaboration
+- [x] [2. VCS (hello gitty), GitHub and Collaboration](#2-github-and-collaboration)
 
 ## Front-End Basic
 - [ ] 1. Intro to HTML & CSS
@@ -49,7 +49,7 @@ Completed [Learn Git Branching](https://learngitbranching.js.org/?locale=uk):
 </details>
 
 ## 1. Linux CLI and Networking
-<details><summary>screenshots</summary>
+<details><summary>Скріншоти</summary>
 
 <img src="./task_linux_cli/quiz_1.png"> 
 <img src="./task_linux_cli/quiz_2.png"> 
@@ -61,3 +61,28 @@ Completed [Learn Git Branching](https://learngitbranching.js.org/?locale=uk):
 До перегляду модулів [Linux Survival](https://linuxsurvival.com](https://linuxsurvival.com/)) майже не володів інформацією стосовно базових команд Linux. Краєм вуха чув про `cd` `mkdir`, а також закріпив знання про команди, котрі були в попередньому завданні Git Basics. Корисною була порада відкривати папку одразу в терміналі завдяки `Git Bash Here`. Ознайомившись із командами в [Linux Survival](https://linuxsurvival.com/) намагався одразу їх закріпити на практиці у командному рядку. Гадаю, що команди із квізу 1-2 будуть використовуватися доволі часто при роботі з git.
 
 Статті про HTTP дали уявлення про роботу даного протоколу, відкрив для себе, що основоположними «китами» є URL-адреси, методи та коди стану. Дізнався про різницю між ідентифікацією (за допомогою ІР-адреси клієнта, FAT URL, заголовків запиту та кукі), авторизацією (найкращий спосіб ідентифікації користувача за допомогою технології на зразок OAuth) та автентифікацією (Basic чи Digest Authentification, перша є одразу реалізована в протоколі HTTP). Корисним було побачити розгорнутий список помилок, які можуть виникнути під час створення запитів до серверу (не тільки помилка 404 чи 505). Цікаво було дізнатися, що для того, щоб існуючий веб-додаток перевести на протокол HTTPS потрібно створити цифровий сертифікат для забезпечення конфіденційного звʼязку.
+
+## 2. GitHub and Collaboration
+
+Проглянув 3-4 тиждень курсу [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github/home/week/3): 
+
+<details><summary>3 тиждень</summary>
+<img src="./task_git_collaboration/3_week.png"> 
+</details>
+  
+<details><summary>4 тиждень</summary>
+<img src="./task_git_collaboration/4_week.png">
+</details>
+
+Після прослуховування [Coursera: вступ до Git і GitHub](https://www.coursera.org/learn/introduction-git-github/home/week/3) отримав знання про Squash and Fixup використовуючи команду `git rebase -i`. Дізнався що "Squash merges" поєднує повідомлення комітів в одне. "Fixup" зберігає оригінальний текст повідомлення, але 
+
+Виконав завдання із [Learn Git Branching](https://learngitbranching.js.org/?locale=uk): 
+  
+<details><summary>Основи: Переміщуємо роботу туди-сюди</summary>
+<img src="./task_git_collaboration/Git_and_GitHub_Indroduction.png">  
+</details>
+  
+<details><summary>Віддалені репозиторії: Через origin – до зірок. Прогресивне використання Git Remotes</summary>
+<img src="./task_git_collaboration/Git_and_GitHub_Push_and_Pull.png">
+</details>
+
