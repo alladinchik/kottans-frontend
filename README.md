@@ -74,7 +74,22 @@ Completed [Learn Git Branching](https://learngitbranching.js.org/?locale=uk):
 <img src="./task_git_collaboration/4_week.png">
 </details>
 
-Після прослуховування [Coursera: вступ до Git і GitHub](https://www.coursera.org/learn/introduction-git-github/home/week/3) отримав знання про Squash and Fixup використовуючи команду `git rebase -i`. Дізнався що "Squash merges" поєднує повідомлення комітів в одне. "Fixup" зберігає оригінальний текст повідомлення, але 
+Прослухавши [Coursera: вступ до Git і GitHub](https://www.coursera.org/learn/introduction-git-github/home/week/3) детальніше ознайомився із [GitHub](https://github.com/). Побачив на практиці роботу із репозиторієм. Цікаво було побачити, як зробити історію комітів лінійною та видалити локальну та віддалену гілки за допомогою команд `git push --delete origin (назва гілки)` та `git branch -d (назва гілки)`
+
+**Ознайомився із твердженнями щодо найкращої практики співпраці:**
+- працюючи над великою зміною є сенс в тому, щоб мати окрему гілку виокремлену для неї;
+- завжди синхронізувати свої гілки, перш ніж починати будь-яку роботу самостійно;
+- уникати дуже великих змін, які змінюють багато різних речей.
+
+Було цікаво наочно побачити як за допомогою командного рядка та GitHub виконується Pull Request. Цього не вистачало при виконанні завдання із пункту Git Basics =)
+
+Отримав знання про Squash та Fixup використовуючи команду `git rebase -i`. Дізнався що "Squash" поєднує повідомлення комітів в одне. "Fixup" зберігає оригінальний текст повідомлення, але відкидає нове повідомлення з коміту fixup.
+
+Сподобалася реалізація коментарів при code review. Гадаю, що з цим доводлі часто буду стикатися в навчанні та практиці.
+**Відкрив для себе найпоширеніші проблеми із кодом, які можна уникнути завдяки code review:**
+- використання незрозумілих назв;
+- забутися опрацювати/врахувати певну умову;
+- забутися додати тести.
 
 Виконав завдання із [Learn Git Branching](https://learngitbranching.js.org/?locale=uk): 
   
@@ -85,4 +100,3 @@ Completed [Learn Git Branching](https://learngitbranching.js.org/?locale=uk):
 <details><summary>Віддалені репозиторії: Через origin – до зірок. Прогресивне використання Git Remotes</summary>
 <img src="./task_git_collaboration/Git_and_GitHub_Push_and_Pull.png">
 </details>
-
