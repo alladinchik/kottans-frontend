@@ -9,7 +9,7 @@
 - [ ] 1. Intro to HTML & CSS
 - [ ] 2. Responsive Web Design
 - [ ] 3. HTML & CSS Practice
-- [ ] 4. Ja vaScipt Basics
+- [ ] 4. JavaScipt Basics
 - [ ] 5. Document Object Model - practice 
 
 ## Advansed Topics
